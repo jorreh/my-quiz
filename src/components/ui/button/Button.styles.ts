@@ -91,7 +91,7 @@ export const ButtonStyle = styled.button`
     z-index: 4;
     background-color: #fff;
     color: var(--GreenPrimary);
-    box-shadow: 0px 5px 0 #0e325b, 5px 10px 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 5px 0 var(--GreenDark), 5px 10px 10px rgba(0, 0, 0, 0.5);
 
     img {
       width: 2.2rem;
