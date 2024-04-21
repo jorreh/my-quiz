@@ -70,7 +70,7 @@ const Quiz = (): React.JSX.Element => {
         </div>
         <div className="cta-wrapper">
           <Button color="yellow" disabled={!isAnswersSelected} handleClick={readyBtnClicked}>
-            {!isAnswersSelected ? "Ready!" : "Continue"}
+            {!isAnswersSelected || !isCorrectAnswersShown ? "Ready!" : "Continue"}
           </Button>
 
           {/* {!isCorrectAnswersShown && <Button color="grey">Geef me een tip...</Button>} */}
