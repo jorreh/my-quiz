@@ -1,0 +1,125 @@
+:root {
+  /* --GreenPrimary: #a3ffdb; */
+  --Green-lighter: #a3ffdb;
+  --GreenPrimary: #1db37e;
+  --GreenDark: #a2eed0;
+  --GreenLight: #93e9c7;
+  --Active: #ffe6cc;
+  --BtnBlue: #1db37e;
+  --BtnAnswerSelected: #178e64;
+  --BtnAnswerCorrect: #38cf1f;
+  --BtnTxt: #fff;
+  --BtnAnswerWrong: crimson;
+  --CtaGreyActive: #ffffff;
+  --CtaGrey: #e3e5e7;
+  --txtWhite: #ffffff;
+  --BorderRadius: 1rem;
+  --BorderRadiusSm: 0.5rem;
+}
+
+@font-face {
+  font-family: "FlandersArtSans-Bold";
+  src: url("/src/assets/fonts/FlandersArtSans-Bold.otf") format("opentype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "FlandersArtSans-Light";
+  src: url("/src/assets/fonts/FlandersArtSans-Light.otf") format("opentype");
+  font-weight: lighter;
+}
+
+@font-face {
+  font-family: "FlandersArtSans-Medium";
+  src: url("/src/assets/fonts/FlandersArtSans-Medium.otf") format("opentype");
+  font-weight: normal; /* You can adjust the weight based on your font */
+}
+
+@font-face {
+  font-family: "FlandersArtSans-Regular";
+  src: url("/src/assets/fonts/FlandersArtSans-Regular.otf") format("opentype");
+  font-weight: normal;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--Green-lighter);
+  color: #ffffff;
+  font-family: "FlandersArtSans-Regular", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  padding: 0.8125rem;
+  height: 100dvh;
+}
+
+#root {
+  /* height: 100vh; */
+  /* width: 100%; */
+  min-width: 100%;
+  height: 100dvh;
+  max-height: 1100px;
+  max-width: 1500px;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-family: "FlandersArtSans-Bold", sans-serif;
+}
+
+h2 {
+  font-size: 1.5rem;
+  font-family: "FlandersArtSans-Medium", sans-serif;
+}
+
+h3 {
+  font-size: 1.2rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+button,
+b {
+  font-family: "FlandersArtSans-Medium", sans-serif;
+}
+
+/* Animations */
+
+@keyframes quizSlide {
+  0% {
+    transform: translateX(0%);
+  }
+  50% {
+    transform: translateX(150%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+.quiz-slide {
+  animation: quizSlide 300ms ease-in-out;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 1.3rem;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+  }
+}

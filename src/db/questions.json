@@ -1,0 +1,49 @@
+[
+  {
+    "question": "Which of the following are ingredients for brewing a potion of eternal silliness?",
+    "question-intro": "For those seeking perpetual amusement, mastering potion brewing is essential. Let's uncover the ingredients for eternal silliness!",
+    "answers": [
+      {"answer": "Giggling Goblins' Goo", "correct": true},
+      {"answer": "Fairy Dust", "correct": true},
+      {"answer": "Unicorn Tears", "correct": false},
+      {"answer": "Witch's Cackle", "correct": true},
+      {"answer": "Dragon Snot", "correct": false},
+      {"answer": "Pixie Laughter", "correct": true},
+      {"answer": "Mermaid Chuckles", "correct": false},
+      {"answer": "Centaur Chuckles", "correct": false},
+      {"answer": "Banshee Wail", "correct": false}
+    ]
+  },
+  {
+    "question": "Which of the following are known methods for persuading a grumpy troll?",
+    "question-intro": "Trolls can be notoriously grumpy, but there are ways to win them over. Let's explore the techniques for persuading a grumpy troll!",
+    "answers": [
+      {"answer": "Offering a Barrel of Pickled Snails", "correct": true},
+      {"answer": "Telling Bad Jokes", "correct": true},
+      {"answer": "Playing Lullabies on a Bagpipe", "correct": false},
+      {"answer": "Dancing the Hokey Pokey", "correct": false},
+      {"answer": "Reciting Troll Poetry", "correct": true},
+      {"answer": "Offering a Bridge Toll", "correct": false},
+      {"answer": "Reciting Mathematical Equations", "correct": false},
+      {"answer": "Singing Opera Arias", "correct": false},
+      {"answer": "Offering Riddles to Solve", "correct": true},
+      {"answer": "Bribing with Chocolate-covered Beetles", "correct": true}
+    ]
+  },
+  {
+    "question": "Which of the following are accepted forms of currency in the land of absurdity?",
+    "question-intro": "In the realm of absurdity, traditional currencies hold little value. Let's discover the accepted forms of currency in this bizarre land!",
+    "answers": [
+      {"answer": "Giant Rubber Duckies", "correct": true},
+      {"answer": "Fart Jars", "correct": true},
+      {"answer": "Invisible Coins", "correct": false},
+      {"answer": "Laughter Gems", "correct": true},
+      {"answer": "Bubblegum Pennies", "correct": false},
+      {"answer": "Whoopee Cushion Quarters", "correct": false},
+      {"answer": "Silly String Silver", "correct": true},
+      {"answer": "Tickle Tokens", "correct": true},
+      {"answer": "Marshmallow Dollars", "correct": false},
+      {"answer": "Jellybean Jewels", "correct": true}
+    ]
+  }
+]
