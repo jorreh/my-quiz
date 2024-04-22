@@ -20,7 +20,8 @@ export interface IQuizQuestion {
   answers: IQuizAnswer[];
 }
 
-const quizUrl = "http://localhost:3002/questions";
+// const quizUrl = "http://localhost:3002/questions";
+const quizUrl = "https://node-express-api-kappa.vercel.app/questions";
 
 const axiosHeaders = {
   //   Origin: "localhost",
