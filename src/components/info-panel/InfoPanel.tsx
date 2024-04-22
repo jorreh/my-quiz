@@ -4,16 +4,7 @@ import Button from "../ui/button/Button";
 import { useQuizContext } from "../../hooks/useQuizContext";
 
 const InfoPanel = () => {
-  const {
-    questions,
-    questionIndex,
-    isPending,
-    isError,
-    error,
-    answerClicked,
-    readyBtnClicked,
-    reloadQuiz,
-  } = useQuizContext();
+  const { questions, questionIndex } = useQuizContext();
 
   return (
     <InfoPanelStyle>
